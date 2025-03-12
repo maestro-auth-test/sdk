@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Dependencies>
+  <Source Uri="https://github.com/maestro-auth-test/dotnet" Sha="30396b326fd26d00978521795f7d871e22a7e292" BarId="430" />
   <ProductDependencies>
     <Dependency Name="Microsoft.TemplateEngine.Abstractions" Version="10.0.100-preview.3.25159.2">
       <Uri>https://github.com/dotnet/templating</Uri>
@@ -299,102 +300,102 @@
       <Uri>https://github.com/dotnet/wpf</Uri>
       <Sha>b129327573e5f7babf24738aeda16e131a318ef5</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.AspNetCore.App.Ref" Version="10.0.0-preview.3.25160.1">
-      <Uri>https://github.com/dotnet/aspnetcore</Uri>
-      <Sha>12d57ddde6bd2f47757364252596cfa89df2ef60</Sha>
+    <Dependency Name="Microsoft.AspNetCore.App.Ref" Version="10.0.0-preview.3.25161.120">
+      <Uri>https://github.com/maestro-auth-test/dotnet</Uri>
+      <Sha>30396b326fd26d00978521795f7d871e22a7e292</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.AspNetCore.App.Ref.Internal" Version="10.0.0-preview.3.25160.1">
-      <Uri>https://github.com/dotnet/aspnetcore</Uri>
-      <Sha>12d57ddde6bd2f47757364252596cfa89df2ef60</Sha>
+    <Dependency Name="Microsoft.AspNetCore.App.Ref.Internal" Version="10.0.0-preview.3.25161.120">
+      <Uri>https://github.com/maestro-auth-test/dotnet</Uri>
+      <Sha>30396b326fd26d00978521795f7d871e22a7e292</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.AspNetCore.App.Runtime.win-x64" Version="10.0.0-preview.3.25160.1">
-      <Uri>https://github.com/dotnet/aspnetcore</Uri>
-      <Sha>12d57ddde6bd2f47757364252596cfa89df2ef60</Sha>
+    <Dependency Name="Microsoft.AspNetCore.App.Runtime.win-x64" Version="10.0.0-preview.3.25161.120">
+      <Uri>https://github.com/maestro-auth-test/dotnet</Uri>
+      <Sha>30396b326fd26d00978521795f7d871e22a7e292</Sha>
     </Dependency>
     <Dependency Name="VS.Redist.Common.AspNetCore.SharedFramework.x64.10.0" Version="10.0.0-preview.3.25160.1">
       <Uri>https://github.com/dotnet/aspnetcore</Uri>
       <Sha>12d57ddde6bd2f47757364252596cfa89df2ef60</Sha>
     </Dependency>
-    <Dependency Name="dotnet-dev-certs" Version="10.0.0-preview.3.25160.1">
-      <Uri>https://github.com/dotnet/aspnetcore</Uri>
-      <Sha>12d57ddde6bd2f47757364252596cfa89df2ef60</Sha>
+    <Dependency Name="dotnet-dev-certs" Version="10.0.0-preview.3.25161.120">
+      <Uri>https://github.com/maestro-auth-test/dotnet</Uri>
+      <Sha>30396b326fd26d00978521795f7d871e22a7e292</Sha>
     </Dependency>
-    <Dependency Name="dotnet-user-jwts" Version="10.0.0-preview.3.25160.1">
-      <Uri>https://github.com/dotnet/aspnetcore</Uri>
-      <Sha>12d57ddde6bd2f47757364252596cfa89df2ef60</Sha>
+    <Dependency Name="dotnet-user-jwts" Version="10.0.0-preview.3.25161.120">
+      <Uri>https://github.com/maestro-auth-test/dotnet</Uri>
+      <Sha>30396b326fd26d00978521795f7d871e22a7e292</Sha>
     </Dependency>
-    <Dependency Name="dotnet-user-secrets" Version="10.0.0-preview.3.25160.1">
-      <Uri>https://github.com/dotnet/aspnetcore</Uri>
-      <Sha>12d57ddde6bd2f47757364252596cfa89df2ef60</Sha>
+    <Dependency Name="dotnet-user-secrets" Version="10.0.0-preview.3.25161.120">
+      <Uri>https://github.com/maestro-auth-test/dotnet</Uri>
+      <Sha>30396b326fd26d00978521795f7d871e22a7e292</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.AspNetCore.Analyzers" Version="10.0.0-preview.3.25160.1">
-      <Uri>https://github.com/dotnet/aspnetcore</Uri>
-      <Sha>12d57ddde6bd2f47757364252596cfa89df2ef60</Sha>
+    <Dependency Name="Microsoft.AspNetCore.Analyzers" Version="10.0.0-preview.3.25161.120">
+      <Uri>https://github.com/maestro-auth-test/dotnet</Uri>
+      <Sha>30396b326fd26d00978521795f7d871e22a7e292</Sha>
     </Dependency>
     <!-- Authentication and Components needed for dotnet/maui CoherentParentDependency -->
-    <Dependency Name="Microsoft.AspNetCore.Authentication.Facebook" Version="10.0.0-preview.3.25160.1">
-      <Uri>https://github.com/dotnet/aspnetcore</Uri>
-      <Sha>12d57ddde6bd2f47757364252596cfa89df2ef60</Sha>
+    <Dependency Name="Microsoft.AspNetCore.Authentication.Facebook" Version="10.0.0-preview.3.25161.120">
+      <Uri>https://github.com/maestro-auth-test/dotnet</Uri>
+      <Sha>30396b326fd26d00978521795f7d871e22a7e292</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.AspNetCore.Authentication.Google" Version="10.0.0-preview.3.25160.1">
-      <Uri>https://github.com/dotnet/aspnetcore</Uri>
-      <Sha>12d57ddde6bd2f47757364252596cfa89df2ef60</Sha>
+    <Dependency Name="Microsoft.AspNetCore.Authentication.Google" Version="10.0.0-preview.3.25161.120">
+      <Uri>https://github.com/maestro-auth-test/dotnet</Uri>
+      <Sha>30396b326fd26d00978521795f7d871e22a7e292</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.AspNetCore.Authentication.MicrosoftAccount" Version="10.0.0-preview.3.25160.1">
-      <Uri>https://github.com/dotnet/aspnetcore</Uri>
-      <Sha>12d57ddde6bd2f47757364252596cfa89df2ef60</Sha>
+    <Dependency Name="Microsoft.AspNetCore.Authentication.MicrosoftAccount" Version="10.0.0-preview.3.25161.120">
+      <Uri>https://github.com/maestro-auth-test/dotnet</Uri>
+      <Sha>30396b326fd26d00978521795f7d871e22a7e292</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.AspNetCore.Components" Version="10.0.0-preview.3.25160.1">
-      <Uri>https://github.com/dotnet/aspnetcore</Uri>
-      <Sha>12d57ddde6bd2f47757364252596cfa89df2ef60</Sha>
+    <Dependency Name="Microsoft.AspNetCore.Components" Version="10.0.0-preview.3.25161.120">
+      <Uri>https://github.com/maestro-auth-test/dotnet</Uri>
+      <Sha>30396b326fd26d00978521795f7d871e22a7e292</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.AspNetCore.Components.Analyzers" Version="10.0.0-preview.3.25160.1">
-      <Uri>https://github.com/dotnet/aspnetcore</Uri>
-      <Sha>12d57ddde6bd2f47757364252596cfa89df2ef60</Sha>
+    <Dependency Name="Microsoft.AspNetCore.Components.Analyzers" Version="10.0.0-preview.3.25161.120">
+      <Uri>https://github.com/maestro-auth-test/dotnet</Uri>
+      <Sha>30396b326fd26d00978521795f7d871e22a7e292</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.AspNetCore.Components.Forms" Version="10.0.0-preview.3.25160.1">
-      <Uri>https://github.com/dotnet/aspnetcore</Uri>
-      <Sha>12d57ddde6bd2f47757364252596cfa89df2ef60</Sha>
+    <Dependency Name="Microsoft.AspNetCore.Components.Forms" Version="10.0.0-preview.3.25161.120">
+      <Uri>https://github.com/maestro-auth-test/dotnet</Uri>
+      <Sha>30396b326fd26d00978521795f7d871e22a7e292</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.AspNetCore.Components.WebAssembly" Version="10.0.0-preview.3.25160.1">
-      <Uri>https://github.com/dotnet/aspnetcore</Uri>
-      <Sha>12d57ddde6bd2f47757364252596cfa89df2ef60</Sha>
+    <Dependency Name="Microsoft.AspNetCore.Components.WebAssembly" Version="10.0.0-preview.3.25161.120">
+      <Uri>https://github.com/maestro-auth-test/dotnet</Uri>
+      <Sha>30396b326fd26d00978521795f7d871e22a7e292</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="10.0.0-preview.3.25160.1">
-      <Uri>https://github.com/dotnet/aspnetcore</Uri>
-      <Sha>12d57ddde6bd2f47757364252596cfa89df2ef60</Sha>
+    <Dependency Name="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="10.0.0-preview.3.25161.120">
+      <Uri>https://github.com/maestro-auth-test/dotnet</Uri>
+      <Sha>30396b326fd26d00978521795f7d871e22a7e292</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.AspNetCore.Components.SdkAnalyzers" Version="10.0.0-preview.3.25160.1">
-      <Uri>https://github.com/dotnet/aspnetcore</Uri>
-      <Sha>12d57ddde6bd2f47757364252596cfa89df2ef60</Sha>
+    <Dependency Name="Microsoft.AspNetCore.Components.SdkAnalyzers" Version="10.0.0-preview.3.25161.120">
+      <Uri>https://github.com/maestro-auth-test/dotnet</Uri>
+      <Sha>30396b326fd26d00978521795f7d871e22a7e292</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.AspNetCore.Components.WebView" Version="10.0.0-preview.3.25160.1">
-      <Uri>https://github.com/dotnet/aspnetcore</Uri>
-      <Sha>12d57ddde6bd2f47757364252596cfa89df2ef60</Sha>
+    <Dependency Name="Microsoft.AspNetCore.Components.WebView" Version="10.0.0-preview.3.25161.120">
+      <Uri>https://github.com/maestro-auth-test/dotnet</Uri>
+      <Sha>30396b326fd26d00978521795f7d871e22a7e292</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.AspNetCore.Metadata" Version="10.0.0-preview.3.25160.1">
-      <Uri>https://github.com/dotnet/aspnetcore</Uri>
-      <Sha>12d57ddde6bd2f47757364252596cfa89df2ef60</Sha>
+    <Dependency Name="Microsoft.AspNetCore.Metadata" Version="10.0.0-preview.3.25161.120">
+      <Uri>https://github.com/maestro-auth-test/dotnet</Uri>
+      <Sha>30396b326fd26d00978521795f7d871e22a7e292</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.AspNetCore.Mvc.Analyzers" Version="10.0.0-preview.3.25160.1">
-      <Uri>https://github.com/dotnet/aspnetcore</Uri>
-      <Sha>12d57ddde6bd2f47757364252596cfa89df2ef60</Sha>
+    <Dependency Name="Microsoft.AspNetCore.Mvc.Analyzers" Version="10.0.0-preview.3.25161.120">
+      <Uri>https://github.com/maestro-auth-test/dotnet</Uri>
+      <Sha>30396b326fd26d00978521795f7d871e22a7e292</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.AspNetCore.Mvc.Api.Analyzers" Version="10.0.0-preview.3.25160.1">
-      <Uri>https://github.com/dotnet/aspnetcore</Uri>
-      <Sha>12d57ddde6bd2f47757364252596cfa89df2ef60</Sha>
+    <Dependency Name="Microsoft.AspNetCore.Mvc.Api.Analyzers" Version="10.0.0-preview.3.25161.120">
+      <Uri>https://github.com/maestro-auth-test/dotnet</Uri>
+      <Sha>30396b326fd26d00978521795f7d871e22a7e292</Sha>
     </Dependency>
     <Dependency Name="Microsoft.Extensions.FileProviders.Embedded" Version="10.0.0-preview.3.25160.1">
       <Uri>https://github.com/dotnet/aspnetcore</Uri>
       <Sha>12d57ddde6bd2f47757364252596cfa89df2ef60</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.AspNetCore.Authorization" Version="10.0.0-preview.3.25160.1">
-      <Uri>https://github.com/dotnet/aspnetcore</Uri>
-      <Sha>12d57ddde6bd2f47757364252596cfa89df2ef60</Sha>
+    <Dependency Name="Microsoft.AspNetCore.Authorization" Version="10.0.0-preview.3.25161.120">
+      <Uri>https://github.com/maestro-auth-test/dotnet</Uri>
+      <Sha>30396b326fd26d00978521795f7d871e22a7e292</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.AspNetCore.Components.Web" Version="10.0.0-preview.3.25160.1">
-      <Uri>https://github.com/dotnet/aspnetcore</Uri>
-      <Sha>12d57ddde6bd2f47757364252596cfa89df2ef60</Sha>
+    <Dependency Name="Microsoft.AspNetCore.Components.Web" Version="10.0.0-preview.3.25161.120">
+      <Uri>https://github.com/maestro-auth-test/dotnet</Uri>
+      <Sha>30396b326fd26d00978521795f7d871e22a7e292</Sha>
     </Dependency>
     <Dependency Name="Microsoft.JSInterop" Version="10.0.0-preview.3.25160.1">
       <Uri>https://github.com/dotnet/aspnetcore</Uri>
@@ -404,9 +405,9 @@
       <Uri>https://github.com/dotnet/aspnetcore</Uri>
       <Sha>12d57ddde6bd2f47757364252596cfa89df2ef60</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.AspNetCore.DeveloperCertificates.XPlat" Version="10.0.0-preview.3.25160.1">
-      <Uri>https://github.com/dotnet/aspnetcore</Uri>
-      <Sha>12d57ddde6bd2f47757364252596cfa89df2ef60</Sha>
+    <Dependency Name="Microsoft.AspNetCore.DeveloperCertificates.XPlat" Version="10.0.0-preview.3.25161.120">
+      <Uri>https://github.com/maestro-auth-test/dotnet</Uri>
+      <Sha>30396b326fd26d00978521795f7d871e22a7e292</Sha>
     </Dependency>
     <Dependency Name="Microsoft.AspNetCore.TestHost" Version="10.0.0-preview.3.25160.1">
       <Uri>https://github.com/dotnet/aspnetcore</Uri>
@@ -430,9 +431,9 @@
       <Uri>https://github.com/dotnet/razor</Uri>
       <Sha>b8cab05568a20347b6fa1e222a611d24b7b6b1aa</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.AspNetCore.Mvc.Razor.Extensions.Tooling.Internal" Version="9.0.0-preview.25160.1">
-      <Uri>https://github.com/dotnet/razor</Uri>
-      <Sha>b8cab05568a20347b6fa1e222a611d24b7b6b1aa</Sha>
+    <Dependency Name="Microsoft.AspNetCore.Mvc.Razor.Extensions.Tooling.Internal" Version="9.0.0-preview.25161.120">
+      <Uri>https://github.com/maestro-auth-test/dotnet</Uri>
+      <Sha>30396b326fd26d00978521795f7d871e22a7e292</Sha>
     </Dependency>
     <Dependency Name="Microsoft.NET.Sdk.Razor.SourceGenerators.Transport" Version="9.0.0-preview.25160.1">
       <Uri>https://github.com/dotnet/razor</Uri>
