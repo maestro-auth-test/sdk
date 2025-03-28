@@ -18,7 +18,7 @@ using Microsoft.DotNet.Cli.ShellShim;
 
 namespace Microsoft.DotNet.Cli;
 
-public class ProgramFromRepo
+public class ProgramFromRepoAgain
 {
     private static readonly string ToolPathSentinelFileName = $"{Product.Version}.toolpath.sentinel";
 
