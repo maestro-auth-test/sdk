@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Dependencies>
+  <Source Uri="https://github.com/maestro-auth-test/dotnet" Mapping="sdk" Sha="66ffdf35d97a2fee6caa8b5ff286e278a99b8041" BarId="1435" />
   <ProductDependencies>
     <Dependency Name="Microsoft.TemplateEngine.Abstractions" Version="10.0.100-preview.4.25170.1">
       <Uri>https://github.com/dotnet/templating</Uri>
