@@ -3,7 +3,7 @@
 <Project>
   <PropertyGroup>
     <!--
-Arbitrary change to cause a backflow.
+A change made in the VMR 🔥🔥🔥
 
       Disable nullable warnings when targeting anything other than our supported .NET core version(s).
       This condition will be evaluated multiple times in multi-targeted projects hence need to be careful
