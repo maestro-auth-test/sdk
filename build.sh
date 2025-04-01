@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# Changing this to something else
+# Changing this in the VMR
 
 SOURCE="${BASH_SOURCE[0]}"
 while [ -h "$SOURCE" ]; do # resolve $SOURCE until the file is no longer a symlink
