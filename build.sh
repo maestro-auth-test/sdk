@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# Changing this in the repo dotnet/sdk
+# Changing this to something else
 
 SOURCE="${BASH_SOURCE[0]}"
 while [ -h "$SOURCE" ]; do # resolve $SOURCE until the file is no longer a symlink
