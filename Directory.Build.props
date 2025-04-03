@@ -2,7 +2,7 @@
 <!-- Platform needs to be set with TreatAsLocalProperty since it is a global property and cannot be overridden otherwise. -->
 <Project TreatAsLocalProperty="Platform">
 
-  <!-- Some content from repo again 🟢🟢🟢🟢 -->
+  <!-- Some content from repo with a conflict 🔥🔥🔥 -->
 
   <PropertyGroup>
     <BuildArchitecture Condition="'$(BuildArchitecture)' == ''">$([System.Runtime.InteropServices.RuntimeInformation]::ProcessArchitecture.ToString().ToLowerInvariant())</BuildArchitecture>
