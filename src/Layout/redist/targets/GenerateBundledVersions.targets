@@ -252,15 +252,6 @@
         android-x64;
         " />
 
-      <Net100AppHostRids Include="
-        @(Net90AppHostRids);
-        " />
-
-      <Net110AppHostRids Include="
-        @(Net100AppHostRids);
-        haiku-x64;
-        " />
-
       <Net110RuntimePackRids Include="
         @(Net100RuntimePackRids);
         ios-arm64;
@@ -271,10 +262,9 @@
         tvossimulator-x64;
         maccatalyst-x64;
         maccatalyst-arm64;
-        haiku-x64;
         " />
 
-      <NetCoreAppHostRids Include="@(Net110AppHostRids)" />
+      <NetCoreAppHostRids Include="@(Net90AppHostRids)" />
 
       <NetCoreRuntimePackRids Include="@(Net110RuntimePackRids)" />
 
@@ -341,16 +331,7 @@
         linux-musl-loongarch64;
         " />
 
-      <Net100MonoRuntimePackRids Include="
-        @(Net90MonoRuntimePackRids);
-        " />
-
-      <Net110MonoRuntimePackRids Include="
-        @(Net100MonoRuntimePackRids);
-        haiku-x64;
-        " />
-
-      <MonoRuntimePackRids Include="@(Net110MonoRuntimePackRids)" />
+      <MonoRuntimePackRids Include="@(Net90MonoRuntimePackRids)" />
 
       <AspNetCore30RuntimePackRids Include="
         win-x64;
@@ -397,16 +378,7 @@
         linux-musl-loongarch64;
         " />
 
-      <Net100Crossgen2SupportedRids Include="
-        @(Net90Crossgen2SupportedRids);
-        " />
-
-      <Net110Crossgen2SupportedRids Include="
-        @(Net100Crossgen2SupportedRids);
-        haiku-x64;
-        " />
-
-      <Crossgen2SupportedRids Include="@(Net110Crossgen2SupportedRids);" />
+      <Crossgen2SupportedRids Include="@(Net90Crossgen2SupportedRids);" />
 
       <Crossgen2SupportedPortableRids Include="@(Crossgen2SupportedRids)" />
 
@@ -440,20 +412,13 @@
         win-x86;
         " />
 
-      <Net100ILCompilerSupportedRids Include="
+      <!-- ILCompiler target RIDs that are officially supported, plus the architecture we are building the product for (TargetRid). See:
+           https://github.com/dotnet/runtime/blob/main/src/installer/pkg/projects/Microsoft.DotNet.ILCompiler/ILCompilerRIDs.props -->
+      <ILCompilerSupportedRids Include="
         @(Net90ILCompilerSupportedRids);
         linux-riscv64;
         linux-musl-riscv64;
         " />
-
-      <Net110ILCompilerSupportedRids Include="
-        @(Net100ILCompilerSupportedRids);
-        haiku-x64;
-        " />
-
-      <!-- ILCompiler target RIDs that are officially supported, plus the architecture we are building the product for (TargetRid). See:
-           https://github.com/dotnet/runtime/blob/main/src/installer/pkg/projects/Microsoft.DotNet.ILCompiler/ILCompilerRIDs.props -->
-      <ILCompilerSupportedRids Include="@(Net110ILCompilerSupportedRids)" />
 
       <ILCompilerSupportedPortableRids Include="@(ILCompilerSupportedRids)" />
 
@@ -496,20 +461,13 @@
         wasi-wasm;
         " />
 
-      <Net100NativeAOTRuntimePackRids Include="
+      <NativeAOTRuntimePackRids Include="
         @(Net90NativeAOTRuntimePackRids);
         linux-riscv64;
         linux-musl-riscv64;
         android-arm64;
         android-x64;
-        " />
-
-      <Net110NativeAOTRuntimePackRids Include="
-        @(Net100NativeAOTRuntimePackRids);
-        haiku-x64;
-        " />
-
-      <NativeAOTRuntimePackRids Include="@(Net110NativeAOTRuntimePackRids)" />
+        "/>
 
       <AspNetCore31RuntimePackRids Include="@(AspNetCore30RuntimePackRids)" />
       <AspNetCore50RuntimePackRids Include="@(AspNetCore31RuntimePackRids);linux-musl-arm;win-arm64" />
@@ -518,9 +476,7 @@
       <AspNetCore80RuntimePackRids Include="@(AspNetCore70RuntimePackRids);freebsd-x64;freebsd-arm64" />
       <AspNetCore80RuntimePackRids Remove="win-arm" />
       <AspNetCore90RuntimePackRids Include="@(AspNetCore80RuntimePackRids);linux-riscv64;linux-musl-riscv64;linux-loongarch64;linux-musl-loongarch64;" />
-      <AspNetCore100RuntimePackRids Include="@(AspNetCore90RuntimePackRids)" />
-      <AspNetCore110RuntimePackRids Include="@(AspNetCore100RuntimePackRids);haiku-x64" />
-      <AspNetCoreRuntimePackRids Include="@(AspNetCore110RuntimePackRids)" />
+      <AspNetCoreRuntimePackRids Include="@(AspNetCore90RuntimePackRids)" />
 
       <WindowsDesktop30RuntimePackRids Include="win-x64;win-x86" />
       <WindowsDesktop31RuntimePackRids Include="@(WindowsDesktop30RuntimePackRids)" />
@@ -748,7 +704,7 @@ Copyright (c) .NET Foundation. All rights reserved.
                               TargetingPackName="Microsoft.NETCore.App.Ref"
                               TargetingPackVersion="$(MicrosoftNETCoreAppRefPackageVersion)"
                               RuntimePackNamePatterns="Microsoft.NETCore.App.Runtime.**RID**"
-                              RuntimePackRuntimeIdentifiers="@(Net100RuntimePackRids, '%3B')"
+                              RuntimePackRuntimeIdentifiers="@(NetCoreRuntimePackRids, '%3B')"
                               />
 
     <KnownAppHostPack Include="Microsoft.NETCore.App"
